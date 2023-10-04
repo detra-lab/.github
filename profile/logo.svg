@@ -2,22 +2,33 @@
   <metadata>
     Copyright 2023–Today (c) Detra (https://github.com/detra-lab). All rights reserved.
   </metadata>
+
   <style>
     :root {
-      --foreground: #212529;
+      --foreground: #313437;
     }
 
     @media (prefers-color-scheme: dark) {
       :root {
-        --foreground: #F8F9FA;
+        --foreground: #F5F5F5;
       }
     }
   </style>
 
   <g id="monogram">
-    <path fill="#3E40C4" d="M490 174H340v400h150c110.457 0 200-89.543 200-200s-89.543-200-200-200Z"/>
-    <path fill="#48BFE3" d="M565 299c34.367 0 66.934 10.273 96.068 28.642C677 337.687 688.5 353.5 690 373l-.001.333v.001L690 374c0 110.457-89.543 200-200 200H340.77C350.298 420.012 447.05 299 565 299Z"/>
-    <path fill="#ADFFE8" opacity=".5" d="M565 449c34.367 0 66.934-10.273 96.068-28.642C677 410.313 688.5 394.5 690 375l-.001-.333v-.001L690 374c0-110.457-89.543-200-200-200H340.77C350.298 327.988 447.05 449 565 449Z"/>
+    <path fill="#5052B0" d="M490 174H340v400h150c110.457 0 200-89.543 200-200s-89.543-200-200-200Z"/>
+    <path fill="url(#top)" opacity=".8" d="M564.724 299c34.443 0 67.082 10.273 96.281 28.642C676.971 337.687 688.497 353.5 690 373c0 .111 0 .222-.001.333v.001c.001.222.001.444.001.666 0 110.457-89.741 200-200.441 200H340c9.549-153.988 106.514-275 224.724-275Z"/>
+    <path fill="url(#bottom)" opacity=".4" d="M564.724 449c34.443 0 67.082-10.273 96.281-28.642C676.971 410.313 688.497 394.5 690 375c0-.111 0-.222-.001-.333v-.001c.001-.222.001-.444.001-.666 0-110.457-89.741-200-200.441-200H340c9.549 153.988 106.514 275 224.724 275Z"/>
+    <defs>
+      <linearGradient id="top" x1="340" x2="690" y1="574" y2="374" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#80FFDB"/>
+        <stop offset="1" stop-color="#C2FFEE"/>
+      </linearGradient>
+      <linearGradient id="bottom" x1="340" x2="690" y1="174" y2="374" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#fff"/>
+        <stop offset="1" stop-color="#EBFFF9"/>
+      </linearGradient>
+    </defs>
   </g>
 
   <g id="logotype">
