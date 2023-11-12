@@ -1,20 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <metadata>
+    Copyright 2023 (c) Detra (https://github.com/detra-lab). All rights reserved.
+  </metadata>
   <style>
     :root {
-      --foreground: #313437;
+      --foreground: #2E2F31;
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --foreground: #F5F5F5;
+        --foreground: #F7FBFF;
       }
     }
   </style>
   <g id="logo">
     <g id="monogram">
-      <path fill="#5055D9" d="M490 174H340V574H490C600.457 574 690 484.457 690 374C690 263.543 600.457 174 490 174Z" />
+      <path fill="#5D4FE1" d="M490 174H340V574H490C600.457 574 690 484.457 690 374C690 263.543 600.457 174 490 174Z" />
       <path fill="url(#leaf-top)" opacity="0.8"
         d="M564.724 299C599.167 299 631.806 309.273 661.005 327.642C676.971 337.687 688.497 353.5 690 373C690 373.111 690 373.222 689.999 373.333V373.334C690 373.556 690 373.778 690 374C690 484.457 600.259 574 489.559 574H340C349.549 420.012 446.514 299 564.724 299Z" />
-      <path fill="url(#leaf-bottom)" opacity="0.4"
+      <path fill="#FFFFFF" opacity="0.4"
         d="M564.724 449C599.167 449 631.806 438.727 661.005 420.358C676.971 410.313 688.497 394.5 690 375C690 374.889 690 374.778 689.999 374.667V374.666C690 374.444 690 374.222 690 374C690 263.543 600.259 174 489.559 174H340C349.549 327.988 446.514 449 564.724 449Z" />
     </g>
     <g id="logotype" fill="var(--foreground)">
@@ -32,12 +35,8 @@
   </g>
   <defs>
     <linearGradient id="leaf-top" x1="340" y1="574" x2="690" y2="374" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#80FFDB" />
-      <stop stop-color="#FFFFFF" offset="1" />
-    </linearGradient>
-    <linearGradient id="leaf-bottom" x1="340" y1="174" x2="690" y2="374" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#EBFFF9" />
-      <stop stop-color="#FFFFFF" offset="1" />
+      <stop stop-color="#78E8CE" />
+      <stop stop-color="#E7FFF7" offset="1" />
     </linearGradient>
   </defs>
 </svg>
